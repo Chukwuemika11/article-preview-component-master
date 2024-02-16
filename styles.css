@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color:hsl(210, 46%, 95%);
+}
+
+.container{
+    width: 700px;
+    /* height: 235px; */
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(210, 46%, 95%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); /* Horizontal, vertical offset, blur radius, and color */
+    margin: 100px auto;
+    border-radius: 20px;
+}
+
+.drawerImage{
+ width: 100%;
+ border-bottom-left-radius: 5px;
+ border-top-left-radius: 5px;
+}
+
+.text{
+    padding-left: 20px;
+}
+
+.text h2{
+    font-size: 15px;
+    padding-top: 25px;
+    color: hsl(217, 19%, 35%);
+}
+
+.text p{
+    font-size: 12px;
+    padding-top: 20px;
+    color: hsl(212, 23%, 69%);
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.profile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.profileContainer{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    /* justify-content: space-between; */
+}
+
+
+.name{
+    font-size: 14px;
+    color: hsl(217, 19%, 35%);
+}
+
+.contact{
+    display: block;
+    
+}
+
+.date{
+    font-size: 10px;
+    color: hsl(212, 23%, 69%);
+}
+
+.shareIcon{
+    padding-left: 120px;
+    cursor: pointer;
+}
